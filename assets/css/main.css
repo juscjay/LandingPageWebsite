@@ -480,28 +480,7 @@ a.notify-me {
     padding-left: 0px;
 	}
 }
-.innerheader3 {
-    background: url(../images/slider3.jpg); /* New background */
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    position: relative;
-    padding-top: 220px; /* Keep same height as innerheader */
-    padding-bottom: 180px;
-}
 
-.innerheader3 .inner-title {
-    padding-left: 150px;
-    margin-top: -60px;
-    color: #fff;
-}
-
-@media only screen and (max-width: 768px) {
-    .innerheader3 .inner-title {
-        text-align: center;
-        padding-left: 0px;
-    }
-}
 
 .innerheader2 .inner-title h3 {
     text-transform: uppercase;
@@ -1197,3 +1176,25 @@ section.footer ul li a {
 
 /*---------------------- Footer Section End -------------*/
 
+.innerheader3 {
+    background: url(../images/slider3.jpg); /* New background */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    padding-top: 220px; /* Keep same height as innerheader */
+    padding-bottom: 180px;
+}
+
+.innerheader3 .inner-title {
+    padding-left: 150px;
+    margin-top: -60px;
+    color: #fff;
+}
+
+@media only screen and (max-width: 768px) {
+    .innerheader3 .inner-title {
+        text-align: center;
+        padding-left: 0px;
+    }
+}
